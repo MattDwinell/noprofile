@@ -1,0 +1,99 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #b2ebf2;
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    background-color:white;
+    opacity: 0;
+    transition: 1s opacity;
+  }
+.container{
+    background: white;
+}
+#creative-image{
+    width:100%;
+    height:auto;
+    margin:0px;
+}
+#normal-image{
+    width:100%;
+    height:auto;
+}
+.nav-wrapper{
+    background-color: #006064;
+}
+#image-row{
+    display: block;
+    margin:0px;
+    padding:0px;
+    background-color: white;
+    
+}
+.right{
+    text-align: right;
+}
+.left-message{
+    margin-top: 5vh;
+    text-align: left;
+    height: 20vh;
+}
+.center-message{
+    height: 20vh;
+    text-align: center;
+}
+.descriptors{
+    font-weight: 800;
+    transition: font-size 2s, color 2s;
+}
+.about-desc{
+    padding-top: 10px;
+    background-color: white;
+    font-weight: 500;
+}
+.descriptors:hover{
+    font-size: 2em;
+    color: #004d40;
+   
+}
+.left-image{
+    border: 1px solid #006064;
+    width:100%;
+    height: 50vh;
+    background-image: url('./../images/dwinell_normal.jpg');
+    background-size: 100% auto;
+    transition: background-image .9s;
+    transition-timing-function: ease-in;
+}
+.left-image:hover{
+background-image: url('./../images/dwinell_creative.jpg');
+}
+.left-image img{
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+.left-image:hover img{
+    width:110%;
+}
+.links{
+    font-size: 1.7em;
+}
+/* .right-image{
+    float:left;
+    width: 25%;
+    height: 80vh;
+
+    overflow: hidden;
+    direction: rtl;
+  
+}
+.left-image{
+    float: left;
+    width: 25%;
+    height: 80vh;
+    overflow: hidden;
+    direction: ltr;
+ 
+  
+}  */

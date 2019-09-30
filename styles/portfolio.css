@@ -1,0 +1,33 @@
+.port-img{
+    width: 100%;
+    height: auto;
+    border: 2px solid #d32f2f;
+    border-radius: 3px;
+}
+body{
+    background-color: #b2ebf2;
+    font-family: 'Roboto', sans-serif;
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    background-color:white;
+    opacity: 0;
+    transition: 1s opacity;
+  }
+.container{
+    background-color: white;
+}
+.center{
+    font-weight: bold;
+}
+.nav-wrapper{
+    background-color: #006064;
+}
+.project{
+    margin-bottom: 25px;
+    /* box-shadow: 0px 10px grey; */
+}
+.project:hover{
+    box-shadow: 10px 10px;
+}

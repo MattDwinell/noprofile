@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./../images/plant_pot.jpg">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+    <link rel="stylesheet" href="./../styles/contact.css" type="text/css">
+</head>
+<body id="body" class="fade-out">
+    <div class="container">
+        <div class="row">
+        <nav>
+                <div class="nav-wrapper">
+                  <a href="./index.html" class="brand-logo">Matthew Dwinell</a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li ><a  href="./portfolio.html">Portfolio</a></li>
+                    <li ><a href="./index.html">About</a></li>
+                    <li ><a class="active" href="./contact.html">Contact</a></li>
+                    <li><a href="./creative.html" > Blog</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+              <div class="row form-row">
+                  <form 
+                  action="mailto:dwinell.matt@gmail.com"
+                  method="POST"
+                  enctype="multipart/form-data"
+                  name="email-form">
+                Your Name:
+                <br>
+                <input type="text" size="20" name="guest-name">
+                <br>
+                <br>
+                
+                Message info:
+                <br>
+                <textarea class='message' name="guest-comment" rows="8" cols="15">
+                </textarea>
+                <br>
+                <br>
+                
+
+                <div class="tooltip" value="Send" type="submit"> 
+                    <span class="tooltiptext">Alternatively, use your preferred email platform to send to dwinell.matt@gmail.com</span>
+                    <input id='submit' type="submit" value="Send">
+                </div>
+                  
+                </form>
+              </div>
+</div>
+
+
+    <script src='./../js/contact.js'></script>
+</body>
+</html>
